@@ -73,6 +73,6 @@ homebrew_cask_apps:
   - spotify
   - steam
   - visual-studio-code
-  - zoom
+  # - zoom # auto-installed
 
 osx_script: "~/.osx --no-restart"
