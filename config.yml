@@ -59,17 +59,17 @@ homebrew_cask_apps:
   - discord
   - docker
   - dropbox
-  - epic-games
+  # - epic-games # auto-installed
   - figma
   - firefox
-  - google-chrome
+  # - google-chrome # auto-installed
   - handbrake
   - iterm2
   - lastpass
   - licecap
   - microsoft-remote-desktop
   - postman
-  - slack
+  # - slack # auto-installed
   - spotify
   - steam
   - visual-studio-code
