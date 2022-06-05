@@ -60,7 +60,7 @@ homebrew_cask_apps:
   - discord
   - docker
   - dropbox
-  # - epic-games # auto-installed
+  - epic-games # auto-installed
   - figma
   - firefox
   # - google-chrome # auto-installed
