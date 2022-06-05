@@ -60,20 +60,20 @@ homebrew_cask_apps:
   - discord
   - docker
   - dropbox
-  - epic-games # auto-installed
+  - epic-games
   - figma
   - firefox
-  # - google-chrome # auto-installed
+  - google-chrome
   - handbrake
   - iterm2
   - lastpass
   - licecap
   - microsoft-remote-desktop
   - postman
-  # - slack # auto-installed
+  - slack
   - spotify
   - steam
   - visual-studio-code
-  # - zoom # auto-installed
+  - zoom
 
 osx_script: "~/.osx --no-restart"
