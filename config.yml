@@ -41,7 +41,8 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - bash-completion
-  - dockutil
+  # - dockutil # TODO: eventually replace below entry; github.com/kcrawford/dockutil/issues/127
+  - lotyp/formulae/dockutil
   - git
   - gh
   - node
