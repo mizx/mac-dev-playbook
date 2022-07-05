@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - nvm
   - readline
   - wget
+  - yarn
 
 homebrew_taps:
   - homebrew/core
