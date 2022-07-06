@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - readline
+  - thefuck
   - wget
   - yarn
   - zsh-autosuggestions
