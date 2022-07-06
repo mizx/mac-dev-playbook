@@ -50,6 +50,8 @@ homebrew_installed_packages:
   - readline
   - wget
   - yarn
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
   - zsh-history-substring-search
 
 homebrew_taps:
