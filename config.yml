@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - firefox
   - github
   - google-chrome
+  - gpg-suite
   - handbrake
   - iterm2
   - lastpass
