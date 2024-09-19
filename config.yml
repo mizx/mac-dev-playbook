@@ -1,32 +1,7 @@
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: true
-dockitems_remove:
-  - Launchpad
-  - TV
-  - Podcasts
-  - App Store
-  - Workspace ONE Intelligent Hub
-  - Terminal
-  - System Preferences
-dockitems_persist:
-  - name: Google Chrome
-    path: "/Applications/Google Chrome.app/"
-  - name: Slack
-    path: "/Applications/Slack.app/"
-  - name: "Visual Studio Code"
-    path: "/Applications/Visual Studio Code.app/"
-  - name: "Figma"
-    path: "/Applications/Figma.app/"
-  - name: Spotify
-    path: "/Applications/Spotify.app/"
-  - name: Zoom
-    path: "/Applications/zoom.us.app/"
-  - name: Around
-    path: "/Applications/Around.app/"
-  - name: Discord
-    path: "/Applications/Discord.app/"
-  - name: "Epic Games Launcher"
-    path: "/Applications/Epic Games Launcher.app/"
+configure_dock: false
+dockitems_remove: []
+dockitems_persist: []
 
 dotfiles_repo: https://github.com/mizx/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -42,8 +17,8 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - bash-completion
-  # - dockutil # TODO: eventually replace below entry; github.com/kcrawford/dockutil/issues/127
-  - lotyp/formulae/dockutil
+  - gettext
+  - gifsicle
   - git
   - gh
   - node
@@ -56,20 +31,14 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - zsh-history-substring-search
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adobe-creative-cloud
-  - around
   - chromedriver
   - discord
   - docker
   - dropbox
-  - epic-games
-  - figma
   - firefox
   - github
   - google-chrome
@@ -78,12 +47,9 @@ homebrew_cask_apps:
   - iterm2
   - lastpass
   - licecap
-  - microsoft-remote-desktop
   - postman
   - slack
   - spotify
-  - steam
   - visual-studio-code
-  # - zoom # auto-installed
 
 osx_script: "~/.osx --no-restart"
