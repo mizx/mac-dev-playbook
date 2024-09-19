@@ -41,14 +41,13 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - github
-  - google-chrome
+  # - google-chrome # already installed
   - gpg-suite
   - handbrake
   - iterm2
   - lastpass
-  - licecap
   - postman
-  - slack
+  # - slack # already installed
   - spotify
   - visual-studio-code
 
