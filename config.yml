@@ -45,6 +45,7 @@ homebrew_cask_apps:
   - discord
   - docker
   - dropbox
+  - figma
   - firefox
   - github
   # - google-chrome # already installed
