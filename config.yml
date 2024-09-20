@@ -17,16 +17,22 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - bash-completion
+  - doppler
+  - flyctl
   - gettext
   - gifsicle
   - git
   - gh
   - node
   - nvm
+  - pnpm
   - readline
+  - temporal
   - thefuck
   - wget
+  - wireguard-tools
   - yarn
+  - zsh
   - zsh-autosuggestions
   - zsh-syntax-highlighting
   - zsh-history-substring-search
@@ -46,6 +52,7 @@ homebrew_cask_apps:
   - handbrake
   - iterm2
   - lastpass
+  - postgres-unofficial
   - postman
   # - slack # already installed
   - spotify
