@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - pnpm
+  - powerlevel10k
   - readline
   - temporal
   - thefuck
@@ -47,6 +48,7 @@ homebrew_cask_apps:
   - dropbox
   - figma
   - firefox
+  - font-meslo-lg-nerd-font
   - github
   # - google-chrome # already installed
   - gpg-suite
