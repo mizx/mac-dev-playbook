@@ -53,6 +53,7 @@ homebrew_cask_apps:
   # - google-chrome # already installed
   - gpg-suite
   - handbrake
+  - home-assistant
   - iterm2
   - lastpass
   - postgres-unofficial
