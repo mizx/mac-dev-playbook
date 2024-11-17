@@ -17,12 +17,14 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - bash-completion
+  - docker
   - doppler
   - flyctl
   - gettext
   - gifsicle
   - git
   - gh
+  - homeassistant-cli
   - node
   - nvm
   - pnpm
