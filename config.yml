@@ -1,7 +1,37 @@
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
-dockitems_remove: []
-dockitems_persist: []
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - Safari
+  - Messages
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - Freeform
+  - TV
+  - Music
+  - News
+  - Keynote
+  - Numbers
+  - Pages
+  - App Store
+  - System Settings
+dockitems_persist:
+  - name: Chrome
+    path: "/Applications/Google Chrome.app"
+  - name: "Cursor"
+    path: "/Applications/Cursor.app"
+  - name: Discord
+    path: "/Applications/Discord.app"
+  - name: Spotify
+    path: "/Applications/Spotify.app"
+  - name: Keeper
+    path: "/Applications/Keeper Password Manager.app"
 
 dotfiles_repo: https://github.com/mizx/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -18,8 +48,6 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - docker
-  - doppler
-  - flyctl
   - gettext
   - gifsicle
   - git
@@ -30,11 +58,7 @@ homebrew_installed_packages:
   - pnpm
   - powerlevel10k
   - readline
-  - temporal
   - thefuck
-  - wget
-  - wireguard-tools
-  - yarn
   - zsh
   - zsh-autosuggestions
   - zsh-syntax-highlighting
@@ -44,24 +68,16 @@ homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
   - cursor
   - discord
   - docker
-  - dropbox
-  - figma
   - firefox
   - font-meslo-lg-nerd-font
   - github
-  # - google-chrome # already installed
-  - gpg-suite
-  - handbrake
+  - google-chrome
+  - keeper-password-manager
   - home-assistant
   - iterm2
-  - lastpass
-  - postgres-unofficial
-  - postman
-  # - slack # already installed
   - spotify
   - visual-studio-code
 
